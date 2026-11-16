@@ -1,0 +1,3 @@
+# mode=worker pool=2 fib(35)
+2026-11-16T14:06:34.498Z event-loop lag 33 ms
+2026-11-16T14:06:35.139Z event-loop lag 20 ms

@@ -1,0 +1,130 @@
+{
+  "sequential": {
+    "fetched": 200,
+    "errors": 0,
+    "peakInFlight": 1,
+    "visited": 200,
+    "elapsedMs": 44531,
+    "server": {
+      "total": 200,
+      "active": 0,
+      "peak": 1
+    },
+    "errorSample": []
+  },
+  "naive200": {
+    "fetched": 200,
+    "errors": 0,
+    "peakInFlight": 64,
+    "visited": 200,
+    "elapsedMs": 2027,
+    "server": {
+      "total": 200,
+      "active": 0,
+      "peak": 60
+    },
+    "errorSample": []
+  },
+  "naive2000": {
+    "fetched": 2000,
+    "errors": 0,
+    "peakInFlight": 611,
+    "visited": 2000,
+    "elapsedMs": 5187,
+    "server": {
+      "total": 2000,
+      "active": 0,
+      "peak": 206
+    },
+    "errorSample": []
+  },
+  "bounded": {
+    "1": {
+      "fetched": 200,
+      "errors": 0,
+      "peakInFlight": 1,
+      "visited": 200,
+      "elapsedMs": 41022,
+      "server": {
+        "total": 200,
+        "active": 0,
+        "peak": 1
+      },
+      "errorSample": []
+    },
+    "5": {
+      "fetched": 200,
+      "errors": 0,
+      "peakInFlight": 5,
+      "visited": 200,
+      "elapsedMs": 8948,
+      "server": {
+        "total": 200,
+        "active": 0,
+        "peak": 5
+      },
+      "errorSample": []
+    },
+    "20": {
+      "fetched": 200,
+      "errors": 0,
+      "peakInFlight": 20,
+      "visited": 200,
+      "elapsedMs": 2798,
+      "server": {
+        "total": 200,
+        "active": 0,
+        "peak": 20
+      },
+      "errorSample": []
+    },
+    "50": {
+      "fetched": 200,
+      "errors": 0,
+      "peakInFlight": 50,
+      "visited": 200,
+      "elapsedMs": 2081,
+      "server": {
+        "total": 200,
+        "active": 0,
+        "peak": 50
+      },
+      "errorSample": []
+    }
+  },
+  "bounded2000": {
+    "fetched": 2000,
+    "errors": 0,
+    "peakInFlight": 50,
+    "visited": 2000,
+    "elapsedMs": 9500,
+    "server": {
+      "total": 2000,
+      "active": 0,
+      "peak": 50
+    },
+    "errorSample": []
+  },
+  "isolation": {
+    "fetched": 154,
+    "errors": 2,
+    "peakInFlight": 20,
+    "visited": 156,
+    "elapsedMs": 2742,
+    "server": {
+      "total": 156,
+      "active": 0,
+      "peak": 20
+    },
+    "errorSample": [
+      {
+        "url": "http://localhost:4000/7",
+        "error": "HTTP 500"
+      },
+      {
+        "url": "http://localhost:4000/12",
+        "error": "timeout"
+      }
+    ]
+  }
+}

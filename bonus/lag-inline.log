@@ -1,0 +1,8 @@
+# mode=inline pool=0 fib(35)
+2026-11-16T14:05:58.775Z event-loop lag 24 ms
+2026-11-16T14:05:58.924Z event-loop lag 50 ms
+2026-11-16T14:05:59.261Z event-loop lag 32 ms
+2026-11-16T14:06:02.801Z event-loop lag 150 ms
+2026-11-16T14:06:07.016Z event-loop lag 139 ms
+2026-11-16T14:06:09.857Z event-loop lag 23 ms
+2026-11-16T14:06:11.193Z event-loop lag 107 ms

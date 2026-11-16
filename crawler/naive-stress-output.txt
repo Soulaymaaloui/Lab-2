@@ -1,0 +1,2 @@
+naive   {"fetched":5473,"errors":2432,"peakInFlight":2637,"visited":7905,"elapsedMs":8898,"sample":["timeout"]}
+server stats { total: 6954, active: 0, peak: 403 }

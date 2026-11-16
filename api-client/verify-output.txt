@@ -1,0 +1,43 @@
+{
+  "label": "full run (no cancel)",
+  "callers": 100,
+  "elapsedS": 12.16,
+  "outcomes": {
+    "OK": 81,
+    "DeadlineExceededError": 18,
+    "RetryExhaustedError": 1
+  },
+  "attemptsReachingServer": 124,
+  "totalDeadlineMs": 5000,
+  "retries": 24,
+  "maxRequestsIn1sWindow": 20,
+  "activeTimeoutHandlesAfterRun": 0
+}
+{
+  "label": "deadline raised to 30 s",
+  "callers": 100,
+  "elapsedS": 12.1,
+  "outcomes": {
+    "OK": 100
+  },
+  "attemptsReachingServer": 127,
+  "totalDeadlineMs": 30000,
+  "retries": 27,
+  "maxRequestsIn1sWindow": 20,
+  "activeTimeoutHandlesAfterRun": 0
+}
+{
+  "label": "cancel at t=2.5 s",
+  "callers": 100,
+  "elapsedS": 2.52,
+  "outcomes": {
+    "OK": 24,
+    "CancelledError": 76
+  },
+  "attemptsReachingServer": 34,
+  "totalDeadlineMs": 5000,
+  "retries": null,
+  "maxRequestsIn1sWindow": 20,
+  "activeTimeoutHandlesAfterRun": 0
+}
+Timeout handles after server.close(): 0 | all active resources: [ 'PipeWrap', 'PipeWrap' ]

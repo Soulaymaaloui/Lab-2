@@ -1,0 +1,18 @@
+{
+  "workers": 6,
+  "idle": {
+    "threads": 13,
+    "rssMB": 52
+  },
+  "peakThreads": 13,
+  "after": null,
+  "rps": 1055,
+  "p50": 3493,
+  "p97_5": 6840,
+  "p99": 7363,
+  "max": 20959,
+  "total": 20414,
+  "errors": 40790,
+  "timeouts": 0,
+  "non2xx": 0
+}

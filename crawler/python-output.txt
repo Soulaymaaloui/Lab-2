@@ -1,0 +1,3 @@
+mock on :4000
+{'elapsed_s': 2.91, 'ok': 200, 'errors': 0, 'peak_in_flight': 20, 'visited': 200, 'error_sample': []}
+{'elapsed_s': 8.54, 'ok': 200, 'errors': 0, 'peak_in_flight': 5, 'visited': 200, 'error_sample': []}
